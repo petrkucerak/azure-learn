@@ -10,6 +10,10 @@ V rámci webiníře si vyzkoušíme vydeployovat ACI (Azure Container Instance) 
 2. pomocí Azure CLI / PowerShell
 3. pomocí ARM template
 
+## Aktivitka
+
+Pro aktivitku jsou připraveny slidy ve složce `AI-learn`.
+
 ## Odkazy
 
 - co to je ACI: https://docs.microsoft.com/en-us/azure/container-instances/container-instances-overview
