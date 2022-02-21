@@ -21,7 +21,7 @@
             "value": "Always"
         },
         "location": {
-            "value": "norteurope" // TODO: Fill in parameter value
+            "value": "norteurope"
         }
     }
 }
