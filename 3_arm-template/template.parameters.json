@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "acilinuxpublicipcontainergroup"
+        },
+        "image": {
+            "value": "mcr.microsoft.com/azuredocs/aci-helloworld"
+        },
+        "port": {
+            "value": 80
+        },
+        "cpuCores": {
+            "value": 1
+        },
+        "memoryInGb": {
+            "value": 2
+        },
+        "restartPolicy": {
+            "value": "Always"
+        },
+        "location": {
+            "value": "norteurope" // TODO: Fill in parameter value
+        }
+    }
+}

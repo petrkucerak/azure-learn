@@ -8,7 +8,12 @@ az account show --output table
 az account set --subscription "My Demos"
 
 # tvorba RG
-az group create --name AzureACICLI --location northeurope	
+az group create --name AzureACICLI --location northeurope
 
 # tvroba a deploy service
-az container create --resource-group AzureACICLI --name clicontainer --image mcr.microsoft.com/azuredocs/aci-helloworld --dns-name-label acidemo --ports 80
+az container create \
+   --resource-group AzureACICLI \
+   --name clicontainer \
+   --image mcr.microsoft.com/azuredocs/aci-helloworld \
+   --dns-name-label acidemo \
+   --ports 80
